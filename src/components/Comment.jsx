@@ -9,6 +9,7 @@ const Comment = (props) => {
         <div className="textData">
         <div className="Comment-text">{props.text}</div>
         <div className="Comment-data">{dataFormat(props.date)}</div>
+        
 
         </div>
 

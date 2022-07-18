@@ -2,7 +2,7 @@
 const Avatar = (props) => {
   return(
        <img
-     className="avatar"
+     className="Avatar"
      src={props.author.avatarUrl}
      alt={props.author.name}
    />

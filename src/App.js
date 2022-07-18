@@ -5,10 +5,17 @@ import {comment} from './data/data.jsx'
 function App() {
 
   return (
-    <Comment 
-    author={comment.author} 
-    text={comment.text}
-     date={comment.date} />
+    <div className="App">
+      {comment.map((item) => 
+    <Comment  author={item.author}text={item.text}
+       date={item.date} />
+    )}
+    </div>
+  //   <Comment 
+  //   author={comment.author} 
+  //   text={comment.text}
+  //    date={comment.date} />
+  
   );
 }
 
