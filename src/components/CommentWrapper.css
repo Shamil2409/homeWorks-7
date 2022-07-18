@@ -1,0 +1,19 @@
+.UserInfo {
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+   text-align: center;
+   border-radius: 30px;
+   padding-top: 50px;
+   margin: auto;
+    
+}
+.textData{
+    background-color: chocolate;
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+     margin-top: 30px;
+     text-align: center;
+     padding-top: 30px;
+}
